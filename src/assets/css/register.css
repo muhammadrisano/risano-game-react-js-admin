@@ -1,0 +1,17 @@
+.kotaklogin{
+        height: 450px;
+        width: 400px;
+        margin: 110px auto 10px;
+        background-color: rgb(201, 191, 191);;
+        border-radius: 20px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 7);
+        padding: 20px;
+}
+
+.bglogin{
+    background-image: url('../images/stucco.png');
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+
+}

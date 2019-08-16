@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { BrowserRouter, Switch, Route, Link, Redirect } from 'react-router-dom'
+import Login from '../src/Screens/Login'
+import leaderboard from '../src/Screens/Leaderboard'
+import Pattern from '../src/Screens/Pattern'
+import Sound from '../src/Screens/Sound'
+import { connect } from 'react-redux'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  render() {
+    return (
+      <div>
+        <BrowserRouter>
+          <Switch>
+            <Redirect exact from="/" to="/login" />
+            <Route path='/login' exact component={Login} />
+            <Route path='/leaderboard' exact component={leaderboard} />
+            <Route path='/sound' exact component={Sound} />
+            <Route path='/pattern' exact component={Pattern} />
+            {/* <Route path='/books/:idbook' exact component={detailbook} /> */}
+          </Switch>
+        </BrowserRouter>
+      </div>
+    )
+  }
 }
 
-export default App;
+const mapStateToProps = state => {
+  return {
+    token: state.users.token,
+    role_id: state.users.role_id
+  }
+
+}
+export default connect(mapStateToProps)(App);
