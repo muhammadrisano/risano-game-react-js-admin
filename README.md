@@ -13,8 +13,6 @@
 - [Requirements](#requirements)
 - [Usage](#usage-for-development)
 - [Screenshots](#screenshots)
-- [Release Web](#release-apk)
-- [Related Project](#related-project-backend)
 - [Contributors](#contributors)
 
 ## Introduction
