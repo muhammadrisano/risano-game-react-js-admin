@@ -1,4 +1,4 @@
-<h1 align="center">Tita-titak Dididing</h1>
+<h1 align="center">Tita-titak Dididing (Admin)</h1>
 <p align="center">
   <img width="250" src="./src/assets/images/git/iconsayaa.png"/>
 </p>
