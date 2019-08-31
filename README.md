@@ -1,5 +1,8 @@
 <h1 align="center">Tita-titak Dididing</h1>
 <p align="center">
+  <img width="250" src="./src/assets/images/git/iconsayaa.png"/>
+</p>
+<p align="center">
   Built With React Js
  </p>
 
@@ -39,7 +42,7 @@
 <div align="center">ng">
   <img width="250" src="./src/assets/images/git/login.png">
   <img width="250" src="./src/assets/images/git/leaderboard.png">
-  <img width="250" src="./src/assets/images/git/iconsayaa.png">
+  <img width="250" src="">
   <img width="250" src="./src/assets/images/git/leaderboard.png">
     <img width="250" src="./src/assets/images/git/combopattern.png">
 </div>
