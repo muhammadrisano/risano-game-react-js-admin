@@ -39,7 +39,8 @@
 5. Type `npm start` for run this app.
 
 ## Screenshots
-<div align="center">ng">
+<div align="center">
+  
   <img width="250" src="./src/assets/images/git/login.png">
   <img width="250" src="./src/assets/images/git/leaderboard.png">
   <img width="250" src="">
