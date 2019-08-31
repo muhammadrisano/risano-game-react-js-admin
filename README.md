@@ -36,14 +36,12 @@
 5. Type `npm start` for run this app.
 
 ## Screenshots
-<div align="center">
-<img width="250" src="./src/assets/images/git/libraribook.png">
+<div align="center">ng">
   <img width="250" src="./src/assets/images/git/login.png">
-  <img width="250" src="./src/assets/images/git/borrow.png">
-  <img width="250" src="./src/assets/images/git/borrowuser.png">
-  <img width="250" src="./src/assets/images/git/caribuku.png">
-    <img width="250" src="./src/assets/images/git/donete.png">
-  <img width="250" src="./src/assets/images/git/adminis.png">
+  <img width="250" src="./src/assets/images/git/leaderboard.png">
+  <img width="250" src="./src/assets/images/git/iconsayaa.png">
+  <img width="250" src="./src/assets/images/git/leaderboard.png">
+    <img width="250" src="./src/assets/images/git/combopattern.png">
 </div>
 
 ## Release Web
